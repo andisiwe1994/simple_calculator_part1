@@ -1,16 +1,16 @@
-function add(...parameters){
+function add(...arguments){
     var sum =0;
-    for(var i=0; i <parameters.length; i++){ 
-     sum += parameters[i];
+    for(var i=0; i <arguments.length; i++){ 
+     sum += arguments[i];
     }
      return sum ;
 }
        
         
-function multiply(...parameters){
+function multiply(...arguments){
     var product = 1;
-    for(var i=0;i<parameters.length;i++){ 
-    product *=parameters[i];
+    for(var i=0;i<arguments.length;i++){ 
+    product *=arguments[i];
     }
     return product;
 }
