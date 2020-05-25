@@ -1,7 +1,7 @@
 let { add, multiply } = require("../src/simple_calculator");
 
 describe("add", function () {
-  describe("multiply", function () {
+  
     it("should add two integers", function () {
       expect(add(1, 2)).toEqual(3);
     });
@@ -14,6 +14,7 @@ describe("add", function () {
       expect(add(1, 2, 3, 4, 5)).toEqual(15);
     });
 
+describe("multiply", function () {
     it("should multiply two integers", function () {
       expect(multiply(1, 3)).toEqual(3);
     });
